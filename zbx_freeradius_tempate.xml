@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>2.0</version>
+    <date>2015-12-20T13:10:15Z</date>
+    <groups>
+        <group>
+            <name>Templates_Custom</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>Freeradius2 Template</template>
+            <name>Freeradius2 Template</name>
+            <description/>
+            <groups>
+                <group>
+                    <name>Templates_Custom</name>
+                </group>
+            </groups>
+            <applications>
+                <application>
+                    <name>Radius</name>
+                </application>
+            </applications>
+            <items>
+                <item>
+                    <name>FreeRADIUS-Total-Access-Accepts</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.auth_status[FreeRADIUS-Total-Access-Accepts,{$RADIUS_SECRET}]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>FreeRADIUS-Total-Access-Requests = 39157&#13;
+	FreeRADIUS-Total-Access-Accepts = 382&#13;
+	FreeRADIUS-Total-Access-Rejects = 38689&#13;
+	FreeRADIUS-Total-Access-Challenges = 0&#13;
+	FreeRADIUS-Total-Auth-Responses = 39071&#13;
+	FreeRADIUS-Total-Auth-Duplicate-Requests = 87&#13;
+	FreeRADIUS-Total-Auth-Malformed-Requests = 0&#13;
+	FreeRADIUS-Total-Auth-Invalid-Requests = 0&#13;
+	FreeRADIUS-Total-Auth-Dropped-Requests = 87&#13;
+	FreeRADIUS-Total-Auth-Unknown-Types = 0</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>FreeRADIUS-Total-Access-Rejects</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.auth_status[FreeRADIUS-Total-Access-Rejects,{$RADIUS_SECRET}]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>FreeRADIUS-Total-Access-Requests = 39157&#13;
+	FreeRADIUS-Total-Access-Accepts = 382&#13;
+	FreeRADIUS-Total-Access-Rejects = 38689&#13;
+	FreeRADIUS-Total-Access-Challenges = 0&#13;
+	FreeRADIUS-Total-Auth-Responses = 39071&#13;
+	FreeRADIUS-Total-Auth-Duplicate-Requests = 87&#13;
+	FreeRADIUS-Total-Auth-Malformed-Requests = 0&#13;
+	FreeRADIUS-Total-Auth-Invalid-Requests = 0&#13;
+	FreeRADIUS-Total-Auth-Dropped-Requests = 87&#13;
+	FreeRADIUS-Total-Auth-Unknown-Types = 0</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>FreeRADIUS-Total-Access-Requests</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.auth_status[FreeRADIUS-Total-Access-Requests,{$RADIUS_SECRET}]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>FreeRADIUS-Total-Access-Requests = 39157&#13;
+	FreeRADIUS-Total-Access-Accepts = 382&#13;
+	FreeRADIUS-Total-Access-Rejects = 38689&#13;
+	FreeRADIUS-Total-Access-Challenges = 0&#13;
+	FreeRADIUS-Total-Auth-Responses = 39071&#13;
+	FreeRADIUS-Total-Auth-Duplicate-Requests = 87&#13;
+	FreeRADIUS-Total-Auth-Malformed-Requests = 0&#13;
+	FreeRADIUS-Total-Auth-Invalid-Requests = 0&#13;
+	FreeRADIUS-Total-Auth-Dropped-Requests = 87&#13;
+	FreeRADIUS-Total-Auth-Unknown-Types = 0</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>FreeRADIUS-Total-Accounting-Requests</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.acct_status[FreeRADIUS-Total-Accounting-Requests,{$RADIUS_SECRET}]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>FreeRADIUS-Total-Accounting-Requests&#13;
+FreeRADIUS-Total-Accounting-Responses&#13;
+FreeRADIUS-Total-Acct-Duplicate-Requests&#13;
+FreeRADIUS-Total-Acct-Malformed-Requests&#13;
+FreeRADIUS-Total-Acct-Invalid-Requests&#13;
+FreeRADIUS-Total-Acct-Dropped-Requests&#13;
+FreeRADIUS-Total-Acct-Unknown-Types</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>FreeRADIUS-Total-Accounting-Responses</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.acct_status[FreeRADIUS-Total-Accounting-Responses,{$RADIUS_SECRET}]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>FreeRADIUS-Total-Accounting-Requests&#13;
+FreeRADIUS-Total-Accounting-Responses&#13;
+FreeRADIUS-Total-Acct-Duplicate-Requests&#13;
+FreeRADIUS-Total-Acct-Malformed-Requests&#13;
+FreeRADIUS-Total-Acct-Invalid-Requests&#13;
+FreeRADIUS-Total-Acct-Dropped-Requests&#13;
+FreeRADIUS-Total-Acct-Unknown-Types</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>FreeRADIUS-Total-Acct-Dropped-Requests</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.acct_status[FreeRADIUS-Total-Acct-Dropped-Requests,{$RADIUS_SECRET}]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>FreeRADIUS-Total-Accounting-Requests&#13;
+FreeRADIUS-Total-Accounting-Responses&#13;
+FreeRADIUS-Total-Acct-Duplicate-Requests&#13;
+FreeRADIUS-Total-Acct-Malformed-Requests&#13;
+FreeRADIUS-Total-Acct-Invalid-Requests&#13;
+FreeRADIUS-Total-Acct-Dropped-Requests&#13;
+FreeRADIUS-Total-Acct-Unknown-Types</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>FreeRADIUS-Total-Acct-Duplicate-Requests</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.acct_status[FreeRADIUS-Total-Acct-Duplicate-Requests,{$RADIUS_SECRET}]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>FreeRADIUS-Total-Accounting-Requests&#13;
+FreeRADIUS-Total-Accounting-Responses&#13;
+FreeRADIUS-Total-Acct-Duplicate-Requests&#13;
+FreeRADIUS-Total-Acct-Malformed-Requests&#13;
+FreeRADIUS-Total-Acct-Invalid-Requests&#13;
+FreeRADIUS-Total-Acct-Dropped-Requests&#13;
+FreeRADIUS-Total-Acct-Unknown-Types</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>FreeRADIUS-Total-Acct-Invalid-Requests</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.acct_status[FreeRADIUS-Total-Acct-Invalid-Requests,{$RADIUS_SECRET}]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>FreeRADIUS-Total-Accounting-Requests&#13;
+FreeRADIUS-Total-Accounting-Responses&#13;
+FreeRADIUS-Total-Acct-Duplicate-Requests&#13;
+FreeRADIUS-Total-Acct-Malformed-Requests&#13;
+FreeRADIUS-Total-Acct-Invalid-Requests&#13;
+FreeRADIUS-Total-Acct-Dropped-Requests&#13;
+FreeRADIUS-Total-Acct-Unknown-Types</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>FreeRADIUS-Total-Acct-Malformed-Requests</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.acct_status[FreeRADIUS-Total-Acct-Malformed-Requests,{$RADIUS_SECRET}]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>FreeRADIUS-Total-Accounting-Requests&#13;
+FreeRADIUS-Total-Accounting-Responses&#13;
+FreeRADIUS-Total-Acct-Duplicate-Requests&#13;
+FreeRADIUS-Total-Acct-Malformed-Requests&#13;
+FreeRADIUS-Total-Acct-Invalid-Requests&#13;
+FreeRADIUS-Total-Acct-Dropped-Requests&#13;
+FreeRADIUS-Total-Acct-Unknown-Types</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>FreeRADIUS-Total-Acct-Unknown-Types</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.acct_status[FreeRADIUS-Total-Acct-Unknown-Types,{$RADIUS_SECRET}]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>FreeRADIUS-Total-Accounting-Requests&#13;
+FreeRADIUS-Total-Accounting-Responses&#13;
+FreeRADIUS-Total-Acct-Duplicate-Requests&#13;
+FreeRADIUS-Total-Acct-Malformed-Requests&#13;
+FreeRADIUS-Total-Acct-Invalid-Requests&#13;
+FreeRADIUS-Total-Acct-Dropped-Requests&#13;
+FreeRADIUS-Total-Acct-Unknown-Types</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>FreeRADIUS-Total-Auth-Dropped-Requests</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.auth_status[FreeRADIUS-Total-Auth-Dropped-Requests,{$RADIUS_SECRET}]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>FreeRADIUS-Total-Access-Requests = 39157&#13;
+	FreeRADIUS-Total-Access-Accepts = 382&#13;
+	FreeRADIUS-Total-Access-Rejects = 38689&#13;
+	FreeRADIUS-Total-Access-Challenges = 0&#13;
+	FreeRADIUS-Total-Auth-Responses = 39071&#13;
+	FreeRADIUS-Total-Auth-Duplicate-Requests = 87&#13;
+	FreeRADIUS-Total-Auth-Malformed-Requests = 0&#13;
+	FreeRADIUS-Total-Auth-Invalid-Requests = 0&#13;
+	FreeRADIUS-Total-Auth-Dropped-Requests = 87&#13;
+	FreeRADIUS-Total-Auth-Unknown-Types = 0</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>FreeRADIUS-Total-Auth-Duplicate-Requests</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.auth_status[FreeRADIUS-Total-Auth-Duplicate-Requests,{$RADIUS_SECRET}]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>FreeRADIUS-Total-Access-Requests = 39157&#13;
+	FreeRADIUS-Total-Access-Accepts = 382&#13;
+	FreeRADIUS-Total-Access-Rejects = 38689&#13;
+	FreeRADIUS-Total-Access-Challenges = 0&#13;
+	FreeRADIUS-Total-Auth-Responses = 39071&#13;
+	FreeRADIUS-Total-Auth-Duplicate-Requests = 87&#13;
+	FreeRADIUS-Total-Auth-Malformed-Requests = 0&#13;
+	FreeRADIUS-Total-Auth-Invalid-Requests = 0&#13;
+	FreeRADIUS-Total-Auth-Dropped-Requests = 87&#13;
+	FreeRADIUS-Total-Auth-Unknown-Types = 0</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>FreeRADIUS-Total-Auth-Responses</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.auth_status[FreeRADIUS-Total-Auth-Responses,{$RADIUS_SECRET}]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>FreeRADIUS-Total-Access-Requests = 39157&#13;
+	FreeRADIUS-Total-Access-Accepts = 382&#13;
+	FreeRADIUS-Total-Access-Rejects = 38689&#13;
+	FreeRADIUS-Total-Access-Challenges = 0&#13;
+	FreeRADIUS-Total-Auth-Responses = 39071&#13;
+	FreeRADIUS-Total-Auth-Duplicate-Requests = 87&#13;
+	FreeRADIUS-Total-Auth-Malformed-Requests = 0&#13;
+	FreeRADIUS-Total-Auth-Invalid-Requests = 0&#13;
+	FreeRADIUS-Total-Auth-Dropped-Requests = 87&#13;
+	FreeRADIUS-Total-Auth-Unknown-Types = 0</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>radius auth check</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>radius.auth</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Radius</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+            </items>
+            <discovery_rules/>
+            <macros>
+                <macro>
+                    <macro>{$RADIUS_SECRET}</macro>
+                    <value>adminsecret</value>
+                </macro>
+            </macros>
+            <templates/>
+            <screens/>
+        </template>
+    </templates>
+    <triggers>
+        <trigger>
+            <expression>{Freeradius2 Template:radius.auth.last()}&lt;&gt;2</expression>
+            <name>Radius auth check</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+    </triggers>
+    <graphs>
+        <graph>
+            <name>FreeRADIUS-Accounting</name>
+            <width>900</width>
+            <height>200</height>
+            <yaxismin>0.0000</yaxismin>
+            <yaxismax>100.0000</yaxismax>
+            <show_work_period>1</show_work_period>
+            <show_triggers>1</show_triggers>
+            <type>0</type>
+            <show_legend>1</show_legend>
+            <show_3d>0</show_3d>
+            <percent_left>0.0000</percent_left>
+            <percent_right>0.0000</percent_right>
+            <ymin_type_1>0</ymin_type_1>
+            <ymax_type_1>0</ymax_type_1>
+            <ymin_item_1>0</ymin_item_1>
+            <ymax_item_1>0</ymax_item_1>
+            <graph_items>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>00C800</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Freeradius2 Template</host>
+                        <key>radius.acct_status[FreeRADIUS-Total-Accounting-Requests,{$RADIUS_SECRET}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>C80000</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Freeradius2 Template</host>
+                        <key>radius.acct_status[FreeRADIUS-Total-Accounting-Responses,{$RADIUS_SECRET}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>0000C8</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Freeradius2 Template</host>
+                        <key>radius.acct_status[FreeRADIUS-Total-Acct-Dropped-Requests,{$RADIUS_SECRET}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>C800C8</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Freeradius2 Template</host>
+                        <key>radius.acct_status[FreeRADIUS-Total-Acct-Duplicate-Requests,{$RADIUS_SECRET}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>4</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>00C8C8</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Freeradius2 Template</host>
+                        <key>radius.acct_status[FreeRADIUS-Total-Acct-Invalid-Requests,{$RADIUS_SECRET}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>5</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>C8C800</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Freeradius2 Template</host>
+                        <key>radius.acct_status[FreeRADIUS-Total-Acct-Malformed-Requests,{$RADIUS_SECRET}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>6</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>C8C8C8</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Freeradius2 Template</host>
+                        <key>radius.acct_status[FreeRADIUS-Total-Acct-Unknown-Types,{$RADIUS_SECRET}]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>FreeRADIUS-Authentication</name>
+            <width>900</width>
+            <height>200</height>
+            <yaxismin>0.0000</yaxismin>
+            <yaxismax>100.0000</yaxismax>
+            <show_work_period>1</show_work_period>
+            <show_triggers>1</show_triggers>
+            <type>0</type>
+            <show_legend>1</show_legend>
+            <show_3d>0</show_3d>
+            <percent_left>0.0000</percent_left>
+            <percent_right>0.0000</percent_right>
+            <ymin_type_1>0</ymin_type_1>
+            <ymax_type_1>0</ymax_type_1>
+            <ymin_item_1>0</ymin_item_1>
+            <ymax_item_1>0</ymax_item_1>
+            <graph_items>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>009600</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Freeradius2 Template</host>
+                        <key>radius.auth_status[FreeRADIUS-Total-Access-Accepts,{$RADIUS_SECRET}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>960000</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Freeradius2 Template</host>
+                        <key>radius.auth_status[FreeRADIUS-Total-Access-Rejects,{$RADIUS_SECRET}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>000096</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Freeradius2 Template</host>
+                        <key>radius.auth_status[FreeRADIUS-Total-Access-Requests,{$RADIUS_SECRET}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>960096</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Freeradius2 Template</host>
+                        <key>radius.auth_status[FreeRADIUS-Total-Auth-Dropped-Requests,{$RADIUS_SECRET}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>4</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>009696</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Freeradius2 Template</host>
+                        <key>radius.auth_status[FreeRADIUS-Total-Auth-Duplicate-Requests,{$RADIUS_SECRET}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>5</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>969600</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Freeradius2 Template</host>
+                        <key>radius.auth_status[FreeRADIUS-Total-Auth-Responses,{$RADIUS_SECRET}]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+    </graphs>
+</zabbix_export>
