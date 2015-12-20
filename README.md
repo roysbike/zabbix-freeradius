@@ -41,9 +41,6 @@ FreeRADIUS will only respond to status-server messages, if the status-server vir
 <code>
 cd sites-enabled
 ln -s ../sites-available/status status
-
-Restart Freeradius
-
 </code>
 
 and restart/reload your RADIUS server. You will notice that a new server listens on port 18121/udp of localhost. If you want other clients than localhost to query this server, change the listen section of the new server. You should also change the default password in the client section of the server. Add more clients as needed.
