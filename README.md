@@ -31,12 +31,10 @@ Accounting coutners per 1 sec
 
 #####1.Enable status server in Freeradius
 
-The configuration for the status server is automatically created in the sites-available directory. By default, this server is enabled and can be queried from every client. This behavior is controlled in the security section of the main config file.
-
-If you want to disable the default status server functionality you need to set the following in radiusd.conf:
+Enable status server functionality you need to set the following in radiusd.conf:
 
 <code>
-status_server = no
+status_server = yes
 </code>
 
 FreeRADIUS will only respond to status-server messages, if the status-server virtual server has been enabled. To do this, create a link from the sites-enabled directory to the status file in the sites-available directory:
