@@ -29,7 +29,7 @@ Accounting coutners per 1 sec
 
 ##Install
 
-#####1.Enable status server in Freeradius
+#####1. Enable status server in Freeradius
 
 Enable status server functionality you need to set the following in radiusd.conf:
 
@@ -46,3 +46,6 @@ ln -s ../sites-available/status status
 
 and restart/reload your RADIUS server. You will notice that a new server listens on port 18121/udp of localhost. If you want other clients than localhost to query this server, change the listen section of the new server. You should also change the default password in the client section of the server. Add more clients as needed.
 
+#####2. Add configuration userparameter_radius.conf in zabbix-agent
+
+#####3. Import zabbix-freeradius-template
