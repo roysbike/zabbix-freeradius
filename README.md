@@ -48,3 +48,4 @@ and restart/reload your RADIUS server. You will notice that a new server listens
 #####2. Add configuration userparameter_radius.conf in zabbix-agent
 
 #####3. Import zabbix-freeradius-template
+Change macros {$RADIUS_SECRET} for password . (default adminsecret)
