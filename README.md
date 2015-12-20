@@ -1,8 +1,7 @@
 # zabbix-freeradius
 
 
-Zabbix template for Freeradius 2.x statistics 
-
+Zabbix template for Freeradius 2.x 
 
 
 ##Items
